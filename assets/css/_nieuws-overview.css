@@ -1,0 +1,306 @@
+.nw-overview-cntnt{
+	padding-bottom: 85px;
+	padding-top: 75px;
+}
+.nw-overview-cntnt-inr{
+	
+	padding-bottom: 18px;
+
+}
+.nw-overview-cntnt-inr > ul{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.nw-overview-cntnt-inr > ul > li{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+}
+.nw-overview-cntnt-img-cntlr{
+	width: 50%;
+	height: 360px;
+	position: relative;
+	overflow: hidden;
+}
+.nw-overview-cntnt-img-cntlr:hover .nw-overview-cntnt-img{
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+.nw-overview-cntnt-img{
+	height: 100%;
+	width: 100%;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.nw-overview-cntnt-desc{
+	width: 50%;
+	padding-left: 22px;
+}
+.nw-overview-cntnt-inr > ul > li:nth-child(2n+2) .nw-overview-cntnt-img-cntlr{
+	order: 2;
+}
+.nw-overview-cntnt-inr > ul > li:nth-child(2n+2) .nw-overview-cntnt-desc{
+	order: 1;
+	padding-left: 0;
+	padding-right: 22px;
+}
+
+
+.nw-ovrvw-cntnt-catagory{
+	color: #02BEE8;
+	display: block;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 17px;
+}
+.nw-ovrvw-cntnt-hdng{
+	display: block;
+	position: relative;
+}
+.nw-ovrvw-cntnt-date{
+	position: absolute;
+	left: -123px;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 102px;
+	height: 98px;
+	background: #FFFFFF;
+	box-shadow: -20px 0px 20px rgba(0, 0, 0, 0.15);
+}
+.nw-ovrvw-cntnt-date > div{
+	width: 68px;
+	height: 68px;
+	border: 2px solid #7B8CA8;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.nw-ovrvw-cntnt-date > div > strong{
+	display: inline-block;
+	color: #7B8CA8;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1;
+}
+.nw-ovrvw-cntnt-date > div > span{
+	display: inline-block;
+	color: #7B8CA8;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.nw-ovrvw-cntnt-title{
+	color: #43587B;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.nw-overview-cntnt-desc > p{
+	margin-bottom: 35px;
+	margin-top: 28px;
+}
+
+.nw-overview-cntnt-inr > ul > li:nth-child(2n+2) .nw-overview-cntnt-desc > .nw-ovrvw-cntnt-hdng > .nw-ovrvw-cntnt-date{
+	left: initial;
+	right: -123px;
+	box-shadow: 20px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+.fl-pagi-ctlr{
+	background: #F4F7F9;
+	padding-top: 45px;
+}
+.fl-pagi-ctlr ul.page-numbers{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fl-pagi-ctlr > ul > li{
+	padding: 0 10px;
+}
+.fl-pagi-ctlr > ul > li > a,
+.fl-pagi-ctlr > ul > li > span{
+	color: #7B8CA8;
+	font-size: 15px;
+	font-weight: 600;
+	
+	line-height: 1;
+	margin-bottom: 0;
+	position: relative;
+	padding: 0 5px;
+	display: inline-block;
+	padding-bottom: 34px;
+}
+.fl-pagi-ctlr > ul > li > a.current,
+.fl-pagi-ctlr > ul > li > span.current{
+	color: #FF5C26;
+}
+.fl-pagi-ctlr > ul > li > a.current:after,
+.fl-pagi-ctlr > ul > li > span.current:after{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	content: "";
+	background: #FF5C26;
+	height: 5px;
+	margin-top: -5px;
+
+}
+.fl-pagi-ctlr > ul > li > a:hover,
+.fl-pagi-ctlr > ul > li > span:hover{
+	color: #FF5C26;
+}
+
+/*responsive*/
+@media(max-width: 1299px){
+
+}
+@media(max-width: 1199px){
+	.nw-overview-cntnt{
+		padding-bottom: 70px;
+		padding-top: 60px;
+	}
+	.nw-ovrvw-cntnt-catagory{
+		margin-bottom: 12px;
+	}
+	.nw-overview-cntnt-inr > ul > li{
+		margin-bottom: 45px;
+	}
+}
+@media(max-width: 991px){
+	.nw-overview-cntnt{
+		padding-bottom: 55px;
+		padding-top: 50px;
+	}
+	.nw-ovrvw-cntnt-title{
+		font-size: 25px;
+		margin-bottom: 15px;
+	}
+	.nw-ovrvw-cntnt-catagory{
+		margin-bottom: 8px;
+	}
+	.nw-overview-cntnt-desc > p {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.nw-overview-cntnt-inr > ul > li{
+		margin-bottom: 35px;
+	}
+	.nw-ovrvw-cntnt-date{
+		left: -92px;
+	}
+	.nw-overview-cntnt-inr > ul > li:nth-child(2n+2) .nw-overview-cntnt-desc > .nw-ovrvw-cntnt-hdng > .nw-ovrvw-cntnt-date{
+	    right: -92px;
+	}
+	.nw-ovrvw-cntnt-date{
+		width: 70px;
+		height: 70px;
+	}
+	.nw-ovrvw-cntnt-date > div{
+		height: 50px;
+		width: 55px;
+	}
+	.nw-ovrvw-cntnt-date > div > strong{
+		font-size: 24px;
+	}
+	.nw-ovrvw-cntnt-date > div > span{
+		font-size: 12px;
+	}
+}
+@media(max-width: 767px){
+	.nw-overview-cntnt-img-cntlr{
+		height: 300px;
+	}
+	.nw-overview-cntnt{
+		padding-bottom: 40px;
+		padding-top: 40px;
+	}
+	.nw-overview-cntnt-desc > p {
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+	.nw-overview-cntnt-desc{
+		padding-left: 15px;
+	}
+	.nw-overview-cntnt-inr > ul > li:nth-child(2n+2) .nw-overview-cntnt-desc{
+		padding-right: 15px;
+	}
+	.nw-ovrvw-cntnt-date{
+		left: -74px;
+	}
+	.nw-overview-cntnt-inr > ul > li:nth-child(2n+2) .nw-overview-cntnt-desc > .nw-ovrvw-cntnt-hdng > .nw-ovrvw-cntnt-date{
+	    right: -74px;
+	}
+	.nw-ovrvw-cntnt-date{
+		width: 60px;
+		height: 60px;
+	}
+	.nw-ovrvw-cntnt-date > div{
+		height: 40px;
+		width: 45px;
+	}
+	.nw-ovrvw-cntnt-date > div > strong{
+		font-size: 20px;
+	}
+	.nw-ovrvw-cntnt-date > div > span{
+		font-size: 10px;
+	}
+
+}
+@media(max-width: 639px){
+
+}
+@media(max-width: 575px){
+	.nw-overview-cntnt{
+		padding-bottom: 25px;
+		padding-top: 25px;
+	}
+	.nw-overview-cntnt-desc > p {
+		margin-bottom: 8px;
+		margin-top: 15px;
+	}
+	.nw-ovrvw-cntnt-title{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.nw-ovrvw-cntnt-catagory{
+		font-size: 12px;
+		margin-bottom: 2px;
+	}
+	.nw-overview-cntnt-img-cntlr{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.nw-overview-cntnt-desc{
+		padding-left: 0;
+		width: 100%;
+	}
+	.nw-overview-cntnt-inr > ul > li:nth-child(2n+2) .nw-overview-cntnt-img-cntlr{
+		order: initial;
+	}
+	.nw-ovrvw-cntnt-date{
+		position: initial;
+		box-shadow: initial;
+		top: initial;
+		transform: initial;
+	}
+	.nw-overview-cntnt-inr > ul > li:nth-child(2n+2) .nw-overview-cntnt-desc > .nw-ovrvw-cntnt-hdng > .nw-ovrvw-cntnt-date{
+		box-shadow: initial;
+	}
+}
+@media(max-width: 479px){
+
+}
