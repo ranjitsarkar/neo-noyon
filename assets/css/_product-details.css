@@ -379,7 +379,9 @@
 	padding-top: 0;
 }
 
-
+.dfp-plate-one-img-inr{
+	min-height: 247px;
+}
 
 /*responsive*/
 @media(max-width: 1399px){
@@ -549,6 +551,9 @@
 		width: 65px;
 		height: 65px;
 		font-size: 19px;
+	}
+	.inr-vrsn-page-cntlr .sidebar{
+		position: absolute!important;
 	}
 }
 @media(max-width: 639px){

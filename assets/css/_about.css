@@ -343,7 +343,7 @@
 		padding-bottom: 55px;
 	}
 	.team-items-cntlr > ul{
-		margin: 0 10px;
+		margin: 0 -10px;
 	}
 	.team-items-cntlr > ul > li{
 		padding: 0 10px;
@@ -378,6 +378,12 @@
 	.team-sec{
 		padding-top: 100px;
 		margin-bottom: 35px;
+	}
+	.nw-weriless-img{
+		width: 43.5%;
+	}
+	.nw-weriless-desc{
+	    width: 56.5%;
 	}
 
 }
@@ -436,6 +442,9 @@
 	.neo-about-right-item-title{
 		font-size: 27px;
 	}
+	.ab-about-scnd-item{
+	    padding-top: 35px;
+	}
 }
 @media(max-width: 639px){
 
@@ -445,9 +454,14 @@
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
-
+	.team-items-cntlr > ul{
+		margin-left: 0;
+		margin-right: 0;
+	}
 	.team-items-cntlr > ul > li{
 		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
 	}
 	.team-items-cntlr > ul > li:nth-child(2n+1) {
 		clear: initial;
@@ -483,7 +497,9 @@
 	.rlzisn-grid-cntlr > div.rlzisnGridSlider .slick-next{
 		right: -17px!important;
 	}
-	
+	.ab-about-scnd-item{
+	    padding-top: 15px;
+	}
 }
 @media(max-width: 479px){
 

@@ -142,7 +142,7 @@
 	border-color: #43587B;
 }
 .main-banner-qk-link{
-	width: 490px;
+	width: 480px;
 	margin-left: auto;
 }
 .main-banner-qk-link > ul{
@@ -359,31 +359,62 @@
 }
 @media(max-width: 991px){
 
-	.main-banner{
+	/*.main-banner{
 		position: relative;
 	    min-height: 650px;
 	    padding-bottom: 164px;
-	}
-	.main-banner-desc{
+	}*/
+	/*.main-banner-desc{
 		max-width: 860px;
 		text-align: center;
 		margin: 0 auto;
 		margin-bottom: 50px;
 		padding-right: 0;
-	}
+	}*/
 	.main-bnr-qk-btn{
 		justify-content: center;
 	}
-	.main-bnr-title{
-		font-size: 50px;
-	}
-	.mb-bnr-qk-link{
+	/*.mb-bnr-qk-link{
 		display: none;
-	}
-	.md-qk-link{
+	}*/
+	/*.md-qk-link{
 		background: #f3f7fa;
 		display: block;
+	}*/
+	/*.md-qk-link-inr .main-banner-qk-link{
+		display: block;
+		margin-left: initial;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		z-index: 2;
+		margin-top: -180px;
+		max-width: 490px;
+		width: 100%;
+	}*/
+	.main-banner{
+		min-height: 725px;
 	}
+	.main-bnr-title{
+		font-size: 47px;
+	}
+	.page-bnr-title{
+		font-size: 47px;
+	}
+	
+	.main-banner-qk-link{
+		width: 372px;
+	}
+	.bnr-qk-link-item-img-cntlr{
+		height: 200px;
+	}
+	.bnr-qk-link-btn{
+		left: 22px;
+	}
+	.bnr-qk-link-btn span a{
+		font-size: 26px;
+	}
+	
 	.md-qk-link-inr .main-banner-qk-link{
 		display: block;
 		margin-left: initial;
@@ -395,15 +426,17 @@
 		max-width: 490px;
 		width: 100%;
 	}
-	.page-bnr-title{
-		font-size: 50px;
-	}
 }
 @media(max-width: 767px){
 	.main-banner{
 		padding-top: 180px;
 		padding-bottom: 135px;
 		min-height: initial;
+	}
+	.main-banner{
+		position: relative;
+	    min-height: 650px;
+	    padding-bottom: 164px;
 	}
 	.main-bnr-title{
 		font-size: 46px;
@@ -473,6 +506,20 @@
 		margin-bottom: 12px;
 		font-size: 45px;
 	}
+	.mb-bnr-qk-link{
+		display: none;
+	}
+	.md-qk-link{
+		background: #f3f7fa;
+		display: block;
+	}
+	.main-banner-desc{
+		max-width: 860px;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 50px;
+		padding-right: 0;
+	}
 }
 @media(max-width: 639px){
 	
@@ -481,7 +528,9 @@
 	
 	.main-banner{
 		padding-bottom: 123px;
+		min-height: 620px;
 	}
+
 	.main-bnr-title{
 		font-size: 42px;
 	}
