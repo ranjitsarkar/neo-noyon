@@ -309,6 +309,10 @@
 	.srch-rslt-articles-item-title{
 		margin-bottom: 13px;
 	}
+	.srch-rslt-lft-top-srch input{
+		padding-top: 17px;
+		padding-bottom: 17px;
+	}
 }
 @media(max-width: 639px){
 
