@@ -292,7 +292,8 @@
 	width: 180px;
 }
 .prdct-dtls-rt-proposal-btn .nw-btn:hover{
-	border-color: #d63e0c;
+	background-color: #fff;
+	color: #ff5c27;
 }
 
 .prdct-card-module{
@@ -318,6 +319,7 @@
     transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	cursor: pointer;
 }
 .prdct-card-module button:hover{
 	background: #f14a13;
