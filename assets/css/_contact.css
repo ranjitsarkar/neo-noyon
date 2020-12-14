@@ -19,7 +19,12 @@
 }
 
 
-
+.contact-lft-title{
+	font-size: 36px;
+	font-weight: 600;
+	color: #43587B;
+	margin-bottom: 17px;
+}
 
 .contact-lft-btm .wpforms-container .wpforms-form .wpforms-field-container{
 	display: flex;
@@ -250,6 +255,10 @@
 	top: 0;
 	left: 0;
 }
+.footer-mdl-socials > ul > li > a,
+.footer-mdl-socials > ul > li > a i{
+	display: inline-block;
+}
 
 .nw-map-wrap{
 	position: relative;
@@ -306,6 +315,9 @@
 	.contact-lft{
 		padding: 40px 30px;
 	}
+	.contact-lft-title{
+		font-size: 32px;
+	}
 	.contact-desc{
 		padding-left: 40px;
 	}
@@ -336,6 +348,10 @@
 	}
 	.contact-lft-top{
 		text-align: center;
+		max-width: 600px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.contact-desc{
 		width: 100%;
@@ -356,6 +372,12 @@
 	}
 	.nw-map-wrap .nw-map{
 		height: 600px!important;
+	}
+	.nw-map-wrap{
+		margin-top: 0;
+	}
+	.contact-lft-title{
+		font-size: 28px;
 	}
 }
 @media(max-width: 767px){
@@ -386,6 +408,13 @@
 	}
 	.nw-map-wrap .nw-map{
 		height: 500px!important;
+	}
+	.footer-mdl-socials > ul > li > a i svg{
+		width: 30px;
+		height: 28px;
+	}
+	.contact-lft-title{
+		font-size: 24px;
 	}
 }
 @media(max-width: 639px){

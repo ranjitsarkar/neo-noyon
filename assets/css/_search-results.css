@@ -71,8 +71,12 @@
 	padding: 0 70px;
 }
 .pagi-ctlr{
-	padding-top: 25px;
+	padding-top: 31px;
+	padding-bottom: 5px;
 	background: transparent;
+}
+.pagi-ctlr > ul > li{
+	line-height: 1;
 }
 .pagi-ctlr > ul > li > a,
 .pagi-ctlr > ul > li > span{
@@ -98,7 +102,49 @@
 .fl-pagi-ctlr-wrap .fl-pagi-ctlr > ul > li:last-child{
 	right: 0;
 }
-
+.fl-pagi-ctlr-wrap .fl-pagi-ctlr > ul > li:first-child > a{
+	position: relative;
+}
+.fl-pagi-ctlr-wrap .fl-pagi-ctlr > ul > li:first-child > a:after{
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: -19px;
+	background-image: url('../images/slider-prev-icon.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50px;
+	height: 50px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.fl-pagi-ctlr-wrap .fl-pagi-ctlr > ul > li:first-child > a:hover:after{
+	background-image: url('../images/slider-prev-icon-hvr.svg');
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.fl-pagi-ctlr-wrap .fl-pagi-ctlr > ul > li:last-child > a:after{
+	position: absolute;
+	content: "";
+	right: 0;
+	bottom: -19px;
+	background-image: url('../images/slider-next-icon.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50px;
+	height: 50px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.fl-pagi-ctlr-wrap .fl-pagi-ctlr > ul > li:last-child > a:hover:after{
+	background-image: url('../images/slider-next-icon-hvr.svg');
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
 .srch-rslt-products-module{
 	padding-left: 66px;
 	margin-top: 35px;
@@ -238,9 +284,7 @@
 		font-size: 26px;
 		margin-bottom: 20px;
 	}
-	.srch-rslt-mdul-item{
-		margin-bottom: 20px;
-	}
+	
 	.srch-rslt-articles-item-date{
 		width: 58px;
 		height: 58px;
@@ -258,6 +302,12 @@
 	}
 	.srch-rslt-articles-item-date{
 		margin-bottom: 10px;
+	}
+	.srch-rslt-mdul-item{
+		margin-bottom: 30px;
+	}
+	.srch-rslt-articles-item-title{
+		margin-bottom: 13px;
 	}
 }
 @media(max-width: 639px){
@@ -282,6 +332,13 @@
 	.srch-rslt-mdul-item-desc{
 		width: 100%;
 		padding-left: 0;
+	}
+	.srch-rslt-mdul-item-desc .rlzisn-item-sub-title{
+		font-size: 12px;
+	}
+	.srch-rslt-mdul-item-desc .rlzisn-item-title,
+	.srch-rslt-mdul-item-desc .rlzisn-item-title a{
+		font-size: 20px;
 	}
 }
 @media(max-width: 479px){

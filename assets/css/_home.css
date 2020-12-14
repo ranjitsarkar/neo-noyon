@@ -305,13 +305,8 @@
 .rlzisn-item-btn{
 
 }
-.rlzisn-item-btn span{
-	position: relative;
-	padding-right: 35px;
-	display: inline-block;
-	cursor: pointer;
-}
-.rlzisn-item-btn span i{
+
+.rlzisn-item-btn a i{
 	position: absolute;
 	right: 5px;
 	top: 50%;
@@ -320,17 +315,20 @@
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
-.rlzisn-item-btn span:hover i{
+.rlzisn-item-btn a:hover i{
 	right: 0;
 
 }
-.rlzisn-item-btn span a{
+.rlzisn-item-btn a{
 	display: inline-block;
 	color: #FF5C26;
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 1;
 	margin-bottom: 0;
+	position: relative;
+	padding-right: 35px;
+	cursor: pointer;
 }
 .rlzisn-btn-cntlr{
 	position: relative;
@@ -685,6 +683,10 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.rlzisn-btn{
+		width: 400px;
+		padding: 0 33px;
+	}
 }
 @media(max-width: 767px){
 	
@@ -855,10 +857,15 @@
 	.portfolio-slider-cntlr .portfolio-slide.slick-slider ul.slick-dots{
 		display: none!important;
 	}
+	.rlzisn-btn{
+		width: 312px;
+	}
 
 }	
 @media(max-width: 639px){
-	
+	.esp-img img{
+		max-width: 50px;
+	}
 }
 @media(max-width: 575px){
 	.realizations-grid-tilte{
@@ -925,6 +932,7 @@
 	.portfolio-slider-cntlr{
 		padding: 0 17px;
 	}
+	
 }
 @media(max-width: 479px){
 	.hm-about-item-btn .nw-btn{

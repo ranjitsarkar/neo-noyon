@@ -59,7 +59,7 @@
 	top: -1px;
 	left: 0;
 	right: 0;
-	border-top: 190px solid #F4F7F9;
+	border-top: 190px solid #fff;
 	border-left: 1920px solid transparent;
 	z-index: 2;
 }
@@ -114,6 +114,7 @@
 	top: 50%;
 	transform: translateY(-50%);
 	left: 0;
+	max-width: 72px;
 }
 .neo-about-right-item-title{
 	font-weight: 600;
@@ -202,7 +203,7 @@
 .team-item-title a:hover{
 	color: #FF5C26;
 }
-.team-item-desc > span.team-item-sub-title{
+.team-item-desc > strong.team-item-sub-title{
 	display:block;
 	padding-bottom: 20px;
 	margin-bottom: 30px;
@@ -251,7 +252,7 @@
 		min-height: 700px;
 	}
 	.neo-about-sec-top-angle{
-		border-top: 170px solid #F4F7F9;
+		border-top: 170px solid #fff;
 	}
 	.neo-about-sec-btm-angle{
 		border-bottom: 350px solid #F4F7F9;
@@ -268,7 +269,7 @@
 		min-height: 600px;
 	}
 	.neo-about-sec-top-angle{
-		border-top: 150px solid #F4F7F9;
+		border-top: 150px solid #fff;
 	}
 	.neo-about-sec-btm-angle{
 		border-bottom: 300px solid #F4F7F9;
@@ -298,7 +299,7 @@
 		height: 340px;
 		margin-bottom: 15px;
 	}
-	.team-item-desc > span.team-item-sub-title{
+	.team-item-desc > strong.team-item-sub-title{
 		padding-bottom: 13px;
 		margin-bottom: 20px;
 	}
@@ -306,7 +307,7 @@
 		min-height: 500px;
 	}
 	.neo-about-sec-top-angle{
-		border-top: 120px solid #F4F7F9;
+		border-top: 120px solid #fff;
 	}
 	.neo-about-sec-btm-angle{
 		border-bottom: 250px solid #F4F7F9;
@@ -320,6 +321,15 @@
 	.team-sec{
 		padding-top: 120px;
 		margin-bottom: 50px;
+	}
+	.neo-about-right-item-title{
+		font-size: 26px;
+	}
+	.neo-about-right-item > div > i{
+		max-width: 57px;
+	}
+	.neo-about-right-item > div{
+		padding-left: 77px;
 	}
 }
 @media(max-width: 991px){
@@ -359,7 +369,7 @@
 		height: 300px;
 		margin-bottom: 18px;
 	}
-	.team-item-desc > span.team-item-sub-title{
+	.team-item-desc > strong.team-item-sub-title{
 		padding-bottom: 15px;
 		margin-bottom: 25px;
 	}
@@ -367,7 +377,7 @@
 		min-height: 400px;
 	}
 	.neo-about-sec-top-angle{
-		border-top: 100px solid #F4F7F9;
+		border-top: 100px solid #fff;
 	}
 	.neo-about-sec-btm-angle{
 		border-bottom: 200px solid #F4F7F9;
@@ -384,6 +394,12 @@
 	}
 	.nw-weriless-desc{
 	    width: 56.5%;
+	}
+	.neo-about-right-item > div > i{
+		max-width: 60px;
+	}
+	.neo-about-right-item > div{
+		padding-left: 82px;
 	}
 
 }
@@ -428,7 +444,7 @@
 		min-height: 340px;
 	}
 	.neo-about-sec-top-angle{
-		border-top: 80px solid #F4F7F9;
+		border-top: 80px solid #fff;
 	}
 	.neo-about-sec-btm-angle{
 		border-bottom: 150px solid #F4F7F9;
@@ -440,14 +456,15 @@
 		padding-top: 80px;
 	}
 	.neo-about-right-item-title{
-		font-size: 27px;
+		font-size: 22px;
 	}
 	.ab-about-scnd-item{
 	    padding-top: 35px;
 	}
+	
 }
 @media(max-width: 639px){
-
+	
 }
 @media(max-width: 575px){
 	.nw-weriless-inr{
@@ -469,7 +486,7 @@
 	.team-item-img-cntlr{
 		margin-bottom: 15px;
 	}
-	.team-item-desc > span.team-item-sub-title{
+	.team-item-desc > strong.team-item-sub-title{
 		padding-bottom: 13px;
 		margin-bottom: 20px;
 	}
@@ -482,7 +499,7 @@
 		min-height: 300px;
 	}
 	.neo-about-right-item-title{
-		font-size: 24px;
+		font-size: 20px;
 	}
 
 	.rlzisn-grid-cntlr > div.rlzisnGridSlider .slick-next,
@@ -499,6 +516,12 @@
 	}
 	.ab-about-scnd-item{
 	    padding-top: 15px;
+	}
+	.neo-about-right-item > div > i{
+		max-width: 50px;
+	}
+	.neo-about-right-item > div{
+		padding-left: 66px;
 	}
 }
 @media(max-width: 479px){
