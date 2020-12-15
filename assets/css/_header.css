@@ -316,6 +316,7 @@ body.active-scroll-off {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     z-index: -1;
+
 }
 .bdoverlay.active {
     z-index: 9999;
@@ -339,6 +340,7 @@ body.active-scroll-off {
     -ms-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    overflow-y: auto;
     
 }
 .xs-mbl-menu-cntlr.opacity-1{
@@ -350,8 +352,6 @@ body.active-scroll-off {
 .xs-mbl-menu-cntlr > div{
 	padding-top: 135px;
 	padding-bottom: 65px;
-	height: 100%;
-	width: 100%;
 }
 .xs-mbl-logo{
 	position: absolute;
@@ -476,6 +476,9 @@ nav.xs-mbl-main-nav > ul > li.menu-item-has-children.sub-menu-arrow > a{
 	-webkit-transform: translateY(-50%);
 	-o-transform: translateY(-50%);
 	right: 18px;
+}
+.xs-mbl-menu-srch button:hover i svg{
+	fill: #FF5C26;
 }
 .xs-mbl-menu-add-card{
 	margin-bottom: 40px;
@@ -648,6 +651,9 @@ nav.xs-mbl-main-nav > ul > li.menu-item-has-children.sub-menu-arrow > a{
 		-ms-transform: initial;
 		-webkit-transform: initial;
 		-o-transform: initial;
+	}
+	.hdr-rgt-top-lang:after{
+		margin-top: 3px;
 	}
 }
 @media(max-width: 639px){

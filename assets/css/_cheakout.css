@@ -94,7 +94,7 @@
 }
 .shpng-card-form table.cart .product-quantity .quantity{
 	position: absolute;
-	bottom: 31px;
+	bottom: 26px;
 	right: 0;
 }
 .shpng-card-form table.cart .product-quantity .quantity input{
@@ -244,7 +244,7 @@
 	border-radius: 4px;
 }
 .input-field-col input:focus{
-	border-color: #1b1b1b;
+	border-color: #43587B;
 }
 
 .shpng-contact-btn{
@@ -291,6 +291,7 @@
 		width: 100%;
 		padding-top: 50px;
 		padding-bottom: 35px;
+		margin-top: 30px;
 	}
 	.shpng-contact-cntlr{
 		width: 100%;

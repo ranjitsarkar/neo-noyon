@@ -58,7 +58,7 @@
 }
 .contact-lft-btm .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input:focus,
 .contact-lft-btm .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field textarea:focus{
-	border-color: #000; 
+	border-color: #43587B; 
 }
 .contact-lft-btm .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field .wpforms-field-label{
 	display: block;
@@ -164,8 +164,8 @@
     margin-top: 26px;
 }
 .contact-lft-btm .wpforms-container .wpforms-form .wpforms-submit-container button:hover {
-	background: #FF5C26;
-	border-color: #FF5C26;
+	background: #7B8CA8;
+	border-color: #7B8CA8;
 	color: #fff;
 }
 .contact-desc{
@@ -189,13 +189,17 @@
 	position: relative;
 	margin-bottom: 60px;
 }
-.contact-desc-loca span{
+.contact-desc-loca a{
 	color: #43587B;
 	font-weight: 300;
 	font-size: 30px;
 	line-height: 1.2;
 	padding-left: 58px;
 	display: inline-block;
+
+}
+.contact-desc-loca a:hover{
+	color: #FF5C26;
 }
 .contact-desc-loca i{
 	position: absolute;
@@ -338,6 +342,16 @@
 	.nw-map-wrap .nw-map{
 		height: 700px!important;
 	}
+	.contact-desc-loca a{
+		font-size: 26px;
+	}
+	.contact-desc-tell span{
+		font-size: 26px;
+	}
+	.contact-desc-mail span{
+		font-size: 26px;
+
+	}
 }
 @media(max-width: 991px){
 	.contact-sec-inr{
@@ -379,6 +393,20 @@
 	.contact-lft-title{
 		font-size: 28px;
 	}
+	.contact-desc-loca a{
+		font-size: 30px;
+	}
+	.contact-desc-tell span{
+		font-size: 30px;
+	}
+	.contact-desc-mail span{
+		font-size: 30px;
+		
+	}
+	.contact-lft-top .hm-about-item-rtng{
+		display: flex;
+		justify-content: center;
+	}
 }
 @media(max-width: 767px){
 	.contact-lft{
@@ -386,6 +414,8 @@
 	}
 	.contact-lft-top .hm-about-item-rtng{
 		margin-bottom: 25px;
+		display: flex;
+		justify-content: center;
 	}
 	.contact-lft-btm .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field textarea{
 		min-height: 140px;
@@ -407,13 +437,16 @@
 	    border-top: 100px solid #f3f7fa;
 	}
 	.nw-map-wrap .nw-map{
-		height: 500px!important;
+		height: 550px!important;
 	}
 	.footer-mdl-socials > ul > li > a i svg{
 		width: 30px;
 		height: 28px;
 	}
 	.contact-lft-title{
+		font-size: 24px;
+	}
+	.contact-desc-loca a{
 		font-size: 24px;
 	}
 }
@@ -459,7 +492,7 @@
 	    border-top: 50px solid #f3f7fa;
 	}
 	.nw-map-wrap .nw-map{
-		height: 400px!important;
+		height: 500px!important;
 	}
 }
 @media(max-width: 479px){

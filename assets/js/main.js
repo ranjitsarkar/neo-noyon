@@ -311,7 +311,7 @@ $(window).resize(function() {
     $(".neo-about-sec-desc-btm-angle").css('border-left-width', window2Width);
 
     $(".nw-map-angle").css('border-left-width', window2Width);
-    $(".search-results-lft-bg").css('width', leftLenght);
+    $(".search-results-lft-bg").css('width', window2Width);
 });
 
 $('.qty').each(function() {
