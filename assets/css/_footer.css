@@ -189,7 +189,7 @@
 .footer-btm-copyright p{
 	margin-bottom: 0;
 	color: #7B8CA8;
-	font-size: 14;
+	font-size: 14px;
 
 }
 .footer-btm-menu{
@@ -237,7 +237,7 @@
 .footer-btm-design-by p{
 	margin-bottom: 0;
 	color: #7B8CA8;
-	font-size: 14;
+	font-size: 14px;
 }
 .footer-btm-design-by a:hover{
 	color: #FF5C26;
